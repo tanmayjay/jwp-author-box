@@ -1,0 +1,20 @@
+{
+    "name": "jay/jwp-author-box",
+    "description": "A plugin to add some usermeta for user's social links and show them as user bio under user's posts.",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Tanmay Kirtania",
+            "email": "jktanmay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JWP\\JAB\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
